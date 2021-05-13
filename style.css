@@ -1,0 +1,218 @@
+* {
+    font-family: 'Exo 2', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.21);
+}
+.nav-link {
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px;
+    text-shadow: 1px 1px 4px #ffffffb0;
+}
+
+.navbar-brand {
+    color:#ffffff;
+    font-weight:500;
+    font-size:30px;
+    margin: 10px;
+    position: relative;
+    text-shadow: 1px 1px 4px #ffffffa9;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    text-shadow: 1px 1px 4px #ffffff;
+    margin-top: 2%;
+    color: white;
+    background: linear-gradient(-45deg,#ffffff00, #05061b, #0a1214, #00000000);
+}
+
+p{
+    color:#fffefe;
+    width: 600px;
+    margin:auto;
+    font-weight:500;
+    font-size:30px;
+    position: relative;
+    text-shadow: 1px 1px 4px #000000;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 1px 1px 2px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 75px);
+    grid-gap: 8rem;
+    justify-items: center;
+    margin-top: 10%;
+    background-color: #181aa107; 
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+    color: #fff;
+    border-radius: 4px;
+    border: 5px solid #000000;
+    background: linear-gradient(-45deg, #000000, #02ff1769, #0004ff63, #000000);
+	animation: gradient 10s ease infinite;
+    background-repeat: no-repeat;
+    margin-bottom:15%;
+    height: 600px;
+}
+
+#Past-Projects {
+    color:#0e0d0d;
+    width: 80%;
+    margin:auto;
+    font-weight:500;
+    font-size:30px;
+    text-shadow: 1px 1px 4px #ffffff;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+#testing-size {
+    width:55%;
+    margin-left: 22%;
+}
+.row {
+    color:#ffffff;
+    margin-top: 5%;
+    font-weight:700;
+    font-size:48px;
+    background-color: rgba(0, 0, 0, 0.602);
+    text-shadow: 1px 1px 4px #000000;
+    padding: 20px 0;
+}
+
+.lead-history-content {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.alt-title-history-year{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-shadow: 1px 1px 4px #000000;
+    font-style: bold;
+}
+
+.alt-title-history-title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 1px 1px 4px #000000;
+    font-style: bold;
+}
+
+body {
+	background: linear-gradient(-45deg, #ffffff, #b94109a1, #020a55c7, #ffffff); 
+	background-size: 400% 400% ;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#Contact-Me {
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+}
+
+#contact-button {
+    background-color: rgb(255, 255, 255);
+}
+
+form {
+    height: 420px;
+    width: 350px;
+    background-color: rgba(0,0,0,0.61);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 55px;
+    border-radius: 10px;
+    margin-top:10%;
+    font-weight: 700;
+}
+
+.link-container {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    padding: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+#my-links{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-top: 1px solid rgb(187, 181, 181);
+    background-color: rgba(0,0,0,0.51);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 13%;
+}
+
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15%;
+    background-color:rgba(0, 0, 0, 0.602);
+    width: 100%;
+    padding: 1px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(238, 238, 255);
+}
+
+a:hover, a:active{
+    color: rgb(255, 255, 255);
+    color: turquoise;
+
+}
+
+#my-links a {
+    color: rgb(255, 255, 255);
+}
+
+#bluebadge{
+    height: 650px;
+}
+
+#redbadge{
+    height: 650px;
+}
+
+#EXPERIENCE{
+    overflow: hidden;
+}
